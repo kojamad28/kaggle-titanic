@@ -1,3 +1,3 @@
-# Jupyter Kaggle
+# Titanic
 
-This repository provides a python environment using Jupyterlab for Kaggle competitions.
+Titanic competition on Kaggle
