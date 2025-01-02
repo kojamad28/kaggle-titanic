@@ -1,0 +1,15 @@
+services:
+  jupyter:
+    build: 
+      context: .
+      args:
+        REQ_TXT: "requirements.txt"
+    image: kojamad28/jupyter-kaggle
+    container_name: jupyterlab
+    command: jupyter lab --ip=0.0.0.0 --allow-root --LabApp.token=''
+    ports:
+     - "8888:8888"
+    volumes:
+     - .:/usr/src/app
+    tty: true
+    stdin_open: true
