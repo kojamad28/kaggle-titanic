@@ -10,6 +10,6 @@ services:
     ports:
      - "8888:8888"
     volumes:
-     - .:/usr/src/app
+     - .:/usr/src
     tty: true
     stdin_open: true
