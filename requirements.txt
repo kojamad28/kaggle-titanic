@@ -12,7 +12,7 @@ numpy
 scipy
 statsmodels
 openpyxl
-pandas[performance]
+pandas[performance, excel, hdf5]
 polars
 ibis-framework[pandas, polars]
 matplotlib
@@ -30,7 +30,7 @@ deepchem
 biopython
 bioinfokit
 anndata
-scanpy
+scanpy[leiden]
 pymc
 arviz
 jupyterlab
